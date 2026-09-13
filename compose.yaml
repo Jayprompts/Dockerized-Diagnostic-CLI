@@ -1,0 +1,6 @@
+services:
+  diagnostic:
+    build:
+      context: .
+    image: diagnostic-tool
+    command: ["help"]
